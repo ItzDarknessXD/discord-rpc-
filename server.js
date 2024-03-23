@@ -2,7 +2,7 @@ const express = require('express');
 const server = express();
  
 server.all('/', (req, res) => {
-  res.send(`NOW GO TO ANY UPTIME APP and paste this link`)
+  res.send(`NOW GO TO ANY UPTIME APP AND PASTE THIS LINK`)
 })
  
 function keepAlive() {
